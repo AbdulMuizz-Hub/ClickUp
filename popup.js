@@ -14,7 +14,7 @@ document.getElementById("saveConfig").addEventListener("click", () => {
   const githubToken = document.getElementById("ghToken").value.trim();
 
   chrome.storage.local.set({ githubUser, githubRepo, githubToken }, () => {
-    document.getElementById("status").textContent = "✅ Config saved!";
+    document.getElementById("status").textContent = " Config saved!";
   });
 });
 
@@ -27,12 +27,12 @@ document.getElementById("pushBtn").addEventListener("click", async () => {
     ["lastProblem", "lastCode", "githubUser", "githubRepo", "githubToken"],
     async (data) => {
       if (!data.lastProblem || !data.lastCode) {
-        statusDiv.textContent = "❌ No problem found. Solve something first.";
+        statusDiv.textContent = " No problem found. Solve something first.";
         return;
       }
 
       if (!data.githubUser || !data.githubRepo || !data.githubToken) {
-        statusDiv.textContent = "❌ Please save GitHub config first.";
+        statusDiv.textContent = " Please save GitHub config first.";
         return;
       }
 
