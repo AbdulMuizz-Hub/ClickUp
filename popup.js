@@ -54,13 +54,13 @@ document.getElementById("pushBtn").addEventListener("click", async () => {
         });
 
         if (res.ok) {
-          statusDiv.textContent = `✅ Pushed ${data.lastProblem}`;
+          statusDiv.textContent = ` Pushed ${data.lastProblem}`;
         } else {
           const err = await res.json();
-          statusDiv.textContent = `❌ Failed: ${err.message}`;
+          statusDiv.textContent = ` Failed: ${err.message}`;
         }
       } catch (e) {
-        statusDiv.textContent = "❌ Error: " + e.message;
+        statusDiv.textContent = " Error: " + e.message;
       }
     }
   );
