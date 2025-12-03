@@ -1,4 +1,4 @@
-const REPO_NAME = "leetcode";
+const REPO_NAME = "leetcode solution";
 
 
 chrome.runtime.onMessage.addListener(async (msg) => {
