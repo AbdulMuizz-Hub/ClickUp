@@ -3,7 +3,7 @@
 ## 🔧 Installation (Chrome Extension)
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sajidkhnx/leetcode-solutions.git
+   https://github.com/AbdulMuizz-Hub/ClickUp.git
    ```
 2. Open **Chrome → Extensions** (`chrome://extensions/`).
 3. Enable **Developer mode** (toggle on the top-right).
