@@ -1,19 +1,9 @@
-# 🧩 Leet Hub – LeetCode → GitHub Auto-Sync
-[![Deploy on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://leet-hub-web-app.vercel.app/)
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](#installation)
 
-🚀 **Auto Sync**: Each time you submit a solution on LeetCode, it’s instantly pushed to your chosen GitHub repository.
-
----
-
-## Live Demo 👉 **[https://leet-hub-web-app.vercel.app/](https://leet-hub-web-app.vercel.app/)**
-
----
 
 ## 🔧 Installation (Chrome Extension)
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sajidkhnx/leetcode-solutions.git
+   https://github.com/AbdulMuizz-Hub/ClickUp.git
    ```
 2. Open **Chrome → Extensions** (`chrome://extensions/`).
 3. Enable **Developer mode** (toggle on the top-right).
@@ -49,4 +39,4 @@ Pull requests and suggestions are welcome!
 ---
 
 ## 📜 License
-MIT License © 2025 [Sajid Khan](https://github.com/sajidkhnx)
+MIT License © 2025 [Abdul Muizz](https://github.com/AbdulMuizz-Hub)
