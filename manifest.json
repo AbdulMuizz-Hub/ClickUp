@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "DotPush",
+  "name": "ClickUp",
   "version": "1.0",
   "permissions": ["storage", "scripting", "activeTab"],
   "host_permissions": ["https://leetcode.com/*", "https://api.github.com/*"],
